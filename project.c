@@ -54,7 +54,7 @@ void *student1(void *arg)
 		}
 		else
 		{
-			printf("\n\t Try Choosing Another option :- 1\n");
+			printf("\n\t Try Choosing Another option :-\n");
 		}
 	}
 	sem_post(&lock_var);	
@@ -94,7 +94,7 @@ void *student2(void *arg)
 		}
 		else
 		{
-			printf("\n\t Try Choosing Another option :-2\n");
+			printf("\n\t Try Choosing Another option :-\n");
 		}
 	}
 	sem_post(&lock_var);
@@ -128,7 +128,7 @@ void *student3(void *arg)
 		}
 		else
 		{
-		printf("\n\t Try Choosing Another option :-3\n");
+		printf("\n\t Try Choosing Another option :-\n");
 		}
 	}
 	sem_post(&lock_var);
